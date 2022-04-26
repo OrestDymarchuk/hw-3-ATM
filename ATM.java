@@ -24,10 +24,10 @@ public class ATM {
 		return amount;
 	}
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 
 		// 6 (500 + 50 + 20 + 5 + 2 + 1
 		int sum = 578;
-		System.out.print(ATM.countBanknotes(sum));
+		System.out.print(countBanknotes(sum));
 	}
 }
