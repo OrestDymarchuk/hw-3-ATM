@@ -1,6 +1,6 @@
 public class ATM {
 
-	public static int countBanknotes(int sum) {
+	public int countBanknotes(int sum) {
 		int[] notes = new int[] { 500, 200, 100, 50, 20, 10, 5, 2, 1 };
 		int[] noteCounter = new int[9];
 		int amount = 0;
